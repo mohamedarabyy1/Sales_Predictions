@@ -4,8 +4,8 @@ import numpy as np
 import pandas as pd
 
 # Load the pre-trained model and preprocessor
-model = joblib.load(r"C:\Users\Lenovo\Desktop\Retail Sales\Sourse\best_xgb_model.pkl")
-preprocessor = joblib.load(r"C:\Users\Lenovo\Desktop\Retail Sales\Sourse\preprocessor.pkl")
+model = joblib.load("Source/best_xgb_model.pkl")
+preprocessor = joblib.load("Source/preprocessor.pkl")
 
 # Streamlit app title
 st.title('Retail Sales Prediction')
