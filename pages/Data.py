@@ -9,12 +9,12 @@ st.markdown("<center><h1> Retail Sales Dataset </h1></center>", unsafe_allow_htm
 st.write('Retail Sales Dataset Before Cleaning And Preprocessing:')
 
 # Reading and displaying the dataset before cleaning and preprocessing
-df_before = pd.read_csv(r"C:\Users\Lenovo\Desktop\Retail Sales\Sourse\Retail_Sales_Data.csv")
+df_before = pd.read_csv("Source/Retail_Sales_Data.csv")
 st.write(df_before)
 
 # Displaying information about the dataset after cleaning and preprocessing
 st.write('Retail Sales Dataset After Cleaning And Preprocessing:')
 
 # Reading and displaying the cleaned dataset
-df_after = pd.read_csv(r"C:\Users\Lenovo\Desktop\Retail Sales\Sourse\cleaned_data.csv")
+df_after = pd.read_csv("Source/cleaned_data.csv")
 st.write(df_after)
