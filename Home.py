@@ -16,5 +16,5 @@ st.markdown('''<center><h6>
             unsafe_allow_html=True)
 
 
-image = st.image("C:\\Users\\Lenovo\\Desktop\\Retail Sales\\Sourse\\retail_sales_final.png")
+image = st.image("Source/retail_sales_final.png")
 image.caption = "Retail Sales Analysis"

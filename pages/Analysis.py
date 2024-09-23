@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
-df = pd.read_csv(r"C:\Users\Lenovo\Desktop\Retail Sales\Sourse\cleaned_data.csv")
+df = pd.read_csv("Source/cleaned_data.csv")
 
 st.title("Correlations Between Variables")
 # Calculate the correlation matrix
